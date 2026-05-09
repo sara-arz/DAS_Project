@@ -19,7 +19,7 @@ DATA_PREP = "cybersecurity_preprocessed.csv"
 st.set_page_config(
     page_title="Cybersecurity Traffic Analysis",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
 st.markdown(
@@ -31,7 +31,7 @@ html, body, [data-testid="stAppViewContainer"] {
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 [data-testid="stSidebar"] { background-color: #161b22; }
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 h1, h2, h3 { color: #e6edf3 !important; }
 </style>
 """,
